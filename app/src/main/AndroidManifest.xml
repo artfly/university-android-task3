@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
         <activity
             android:name=".RootActivity"
             android:label="@string/app_name" >
@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SimpleToolbarActivity" />
+        <activity android:name=".UpToolbarActivity"
+                  android:parentActivityName=".RootActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RootActivity" />
+        </activity>
+        <activity android:name=".base.BaseToolbarActivity"
+                  android:parentActivityName=".RootActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".RootActivity" />
+        </activity>
+        <activity android:name=".SplitToolbarActivity"/>
+        <activity android:name=".TabToolbarActivity"/>
+        <activity android:name=".SpinnerToolbarActivity"/>
     </application>
 
 </manifest>

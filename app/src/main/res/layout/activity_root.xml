@@ -15,52 +15,33 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/simple_toolbar_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/simple"
-            android:onClick="dummy"/>
+            android:text="@string/simple"/>
 
         <Button
+            android:id="@+id/toolbar_with_up_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/simple_up"
-            android:onClick="dummy"/>
+            android:text="@string/simple_up"/>
 
         <Button
+            android:id="@+id/split_toolbar_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/split"
-            android:onClick="dummy"/>
+            android:text="@string/split"/>
 
         <Button
+            android:id="@+id/tab_toolbar_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tabs"
-            android:onClick="dummy"/>
+            android:text="@string/tabs"/>
 
         <Button
+            android:id="@+id/spinner_toolbar_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/list"
-            android:onClick="dummy"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/custom"
-            android:onClick="dummy"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/themed"
-            android:onClick="dummy"/>
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/action"
-            android:onClick="dummy"/>
-
+            android:text="@string/list"/>
     </LinearLayout>
 </ScrollView>

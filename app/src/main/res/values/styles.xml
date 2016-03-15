@@ -1,8 +1,19 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowNoTitle">true</item>
+        <item name="searchViewStyle">@style/SearchViewStyle</item>
+    </style>
+    
+    <style name="ToolbarStyle">
+        <item name="android:background">@color/midnightblue</item>
+        <item name="android:textColorPrimary">@android:color/holo_blue_light</item>
+        <item name="android:actionMenuTextColor">@android:color/holo_orange_light</item>
+    </style>
+    
+    <style name="SearchViewStyle">
+        <item name="queryBackground">@android:color/white</item>
     </style>
 
 </resources>
